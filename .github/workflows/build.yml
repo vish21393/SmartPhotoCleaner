@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Unzip project
-        run: unzip -o SmartPhotoCleaner-AndroidProject.zip
+        run: unzip -o SmartPhotoCleaner.zip
       - uses: actions/setup-java@v4
         with:
           distribution: 'temurin'
